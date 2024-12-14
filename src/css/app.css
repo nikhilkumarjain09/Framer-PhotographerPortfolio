@@ -1,0 +1,21 @@
+/* Background video styles */
+.background-video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+  }
+  
+  /* App container */
+  .app-container {
+    transition: background-color 0.5s ease; /* Smooth transition for background */
+  }
+  
+  /* Black background when scrolled to the highlight */
+  .black-background {
+    background-color: black;
+  }
+  

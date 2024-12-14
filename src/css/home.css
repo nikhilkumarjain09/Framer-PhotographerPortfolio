@@ -1,0 +1,156 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: auto;
+    height: 100vh;
+    padding: 0 0px;
+    padding-left: 50px;
+  }
+  
+  .left-right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .home-container {
+    margin-bottom: 20px; /* Adjust spacing as needed */
+  }
+  
+  .highlighted-text-container {
+    z-index: 1; /* Ensure it's above other elements but doesn't overlap Home */
+    position: relative; /* Ensure it follows layout flow */
+  }
+  .right-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  
+  .left-text {
+    margin-top: 300px;
+    font-size: 7rem;
+    font-weight: bold;
+    color: #fff;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: left;
+    max-width: 1000px;
+  }
+  
+  .right-content {
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px;
+  }
+  
+  .right-content p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .button {
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .button:hover {
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .arrow {
+    margin-left: 10px;
+    font-size: 1.5rem;
+  }
+  
+  .stats-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    gap: 10px; /* Optional: adds space between boxes */
+    width: 100%;
+    height: 100vh; /* Make the container take the full screen height */
+    box-sizing: border-box; /* Ensure padding and border are included in width/height */
+  }
+  
+  .stat-box {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Ensure padding is included in width/height */
+  }
+  
+  .one-third {
+    flex: 1; /* 1/3 of available space */
+  }
+  
+  .two-thirds {
+    flex: 2; /* 2/3 of available space */
+  }
+  
+  .stat-number {
+    font-size: 3rem;
+    color: orange;
+    font-weight: bold;
+  }
+  .highlighted-text-container {
+    display: flex;
+    align-items: center; /* Vertically align content */
+    justify-content: space-between; /* Space between sections */
+    padding: 3rem 2rem; /* Adjust padding as needed */
+  }
+  
+  .highlight-left {
+    width: 50%; /* Take up half the space */
+    padding-right: 1rem; /* Add space to the right */
+    text-align: left; /* Align text to the left */
+  }
+  
+  .highlight-left .highlight {
+    font-size: 7rem;
+    color: #FF5722; /* Accent color for highlighted text */
+  }
+  
+  .simple-right {
+    width: 50%; /* Take up half the space */
+    padding-left: 1rem; /* Add space to the left */
+    text-align: justify; /* Justify text for a clean look */
+  }
+  .simple-right p{
+    flex: 1; /* Simple text takes less space */
+    text-align: right;
+    color: #fff;
+    font-size: 3rem;
+    max-width: 600px;
+    font-weight: italic;
+  }
+  /* Scrollable content */
+  .scrollable-content {
+    overflow-y: auto;
+    max-height: 70vh; /* Adjust the height as needed */
+    width: 100%;
+  }
+  
+  .content-item {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+    border-radius: 8px;
+  }
+  

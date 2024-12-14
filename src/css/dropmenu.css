@@ -1,0 +1,14 @@
+/* DropMenu.css */
+.fullscreen-dropmenu {
+    position: fixed; /* Ensures it's positioned relative to the viewport */
+    top: 0;
+    left: 0;
+    width: fit-content; /* Full width of the viewport */
+    height: fit-content; /* Full height of the viewport */
+    background-color: rgba(18, 18, 18, 0.95); /* Slight transparency for overlay effect */
+    z-index: 50; /* Stays above other elements */
+    display: flex; /* Optional: Align content inside the menu */
+    justify-content: center;
+    align-items: center;
+  }
+  
